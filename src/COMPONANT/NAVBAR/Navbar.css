@@ -1,0 +1,239 @@
+
+
+/* ===== Global Reset ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Scroll Lock (when menu is open) ===== */
+body.no-scroll {
+  overflow: hidden;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: hsla(0, 0%, 100%, 0.964);
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  height: 70px; /* Add height */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+
+.logo {
+  font-family: 'Unbounded', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* ===== Search ===== */
+.search_container {
+  position: relative;
+  flex: 1;
+  max-width: 500px;
+  margin: 0 2rem;
+}
+
+.search_icon_inside {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+}
+
+#search {
+  width: 100%;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+/* ===== Nav Right ===== */
+.nav_right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.option {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* ===== Cart Icon ===== */
+.nav_icon {
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.cart {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.cart_qty {
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+/* ===== Hamburger Menu Icon ===== */
+.menu_icon {
+  display: none;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ===== Mobile Search ===== */
+.search_container_mobile {
+  display: none;
+}
+
+.search_icon_inside_mobile {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #777;
+}
+
+#search_mobile {
+  width: 100%;
+  padding: 10px 20px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+/* ===== Mobile Nav Menu ===== */
+.nav_links {
+  position: fixed;
+  top: 70px; /* 👈 Start below navbar */
+  right: 0;
+  width: 100%;
+  height: calc(100vh - 70px); /* 👈 Adjust height */
+  background-color: white;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.nav_links.open {
+  transform: translateX(0);
+}
+
+.nav_links a {
+  padding: 1rem 0;
+  padding-left: 1rem;
+  width: 100%;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #eee;
+  font-size: 1.1rem;
+}
+
+
+/* ===== Overlay Background ===== */
+.menu_overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 900;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.menu_overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+/* ===== Close Icon in Mobile Menu ===== */
+.close_icon {
+  font-size: 2rem;
+  margin-left: auto;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+
+/* ===== Responsive Styles ===== */
+@media screen and (max-width: 900px) {
+  .search_container {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .search_container_mobile {
+    display: block;
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    margin: 0 2rem;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .menu_icon {
+    display: block;
+    font-size: 2rem;
+  }
+  .nav_links{
+    overflow: scroll;
+  }
+}
+.logo_mobile{
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}

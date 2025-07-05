@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    height: 60vh;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    #heroback{
+        height: 20vh;
+        
+    }
+}
