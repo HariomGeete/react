@@ -8,7 +8,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="public/kindpng_52192.png" alt="Product" />
+          <img src="/kindpng_52192.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
