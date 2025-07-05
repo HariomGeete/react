@@ -8,7 +8,7 @@ import Cart from './COMPONANT/CART/Cart.jsx'
 import Login from './COMPONANT/Login/Login.jsx'
 import Footer from "./COMPONANT/FOOTER/Footer.jsx"
 import Hero from './COMPONANT/HERO/Hero.jsx';
-import Product from './COMPONANT/PRODUCT/Product.jsx';
+import ProductCard from './COMPONANT/PRODUCTCARD/ProductCard.jsx';
 
 
 
@@ -22,7 +22,7 @@ const Homepage = () => {
         <Route path='/login' element={<Login />} />
       </Routes>
       <Hero/>
-      <Product/>
+      <ProductCard/>
       <Footer />
     </>
   );
