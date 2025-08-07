@@ -17,7 +17,7 @@ const Homepage = () => {
     <>
     <Navbar />
       <Routes>
-        <Route path='/product/:id' element={<Productdetails />} />
+        <Route path='/product' element={<Productdetails />} />
         <Route path='/cart' element={<Cart />} />
         <Route path='/login' element={<Login />} />
       </Routes>
