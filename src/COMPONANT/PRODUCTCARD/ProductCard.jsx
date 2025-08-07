@@ -8,7 +8,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="/src/assets/51FNnHjzhQL._SL1200_-removebg-preview.png" alt="Product" />
+          <img src="/51FNnHjzhQL._SL1200_-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -26,7 +26,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/71gWBQH1saL._SX522_-removebg-preview.png" alt="Product" />
+          <img src="/71gWBQH1saL._SX522_-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -46,7 +46,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/image-removebg-preview.png" alt="Product" />
+          <img src="/image-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -64,7 +64,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/vecteezy_ai-generated-3d-isolated-render-of-power-bank-png_36731835.png" alt="Product" />
+          <img src="/vecteezy_ai-generated-3d-isolated-render-of-power-bank-png_36731835.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -81,7 +81,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/image-removebg-preview (1).png" alt="Product" />
+          <img src="/image-removebg-preview (1).png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -99,7 +99,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/71vm32j2InL._SX522_-removebg-preview.png" alt="Product" />
+          <img src="/71vm32j2InL._SX522_-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -116,7 +116,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/8_ff8db2e8-d8b7-41fa-bf77-f0563f559875-removebg-preview.png" alt="Product" />
+          <img src="/8_ff8db2e8-d8b7-41fa-bf77-f0563f559875-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -135,7 +135,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/image-removebg-preview (2).png" alt="Product" />
+          <img src="/image-removebg-preview (2).png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -154,7 +154,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="/src/assets/81mjkv25b5L._SL1500_-removebg-preview.png" alt="Product" />
+          <img src="/81mjkv25b5L._SL1500_-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -172,7 +172,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/shopping-removebg-preview.png" alt="Product" />
+          <img src="/shopping-removebg-preview.png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
@@ -190,7 +190,7 @@ const ProductCard = () => {
       <div className='product-card'>
 
         <div className="product-image">
-          <img src="src/assets/shopping-removebg-preview (1).png" alt="Product" />
+          <img src="/shopping-removebg-preview (1).png" alt="Product" />
           <BiHeart className="wishlist" />
 
         </div>
